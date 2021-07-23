@@ -14,5 +14,5 @@ const userAuthRoutes = require('./routes/auth.userRoute')
 app.use('/api', userAuthRoutes)
 
 
-const port = Process.env.PORT || 8000;
+const port = process.env.PORT || 8000;
 app.listen(port, () => console.log(`Server running on port ${port}`));
