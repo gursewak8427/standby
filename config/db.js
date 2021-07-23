@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
-const db = process.env.MONGO_DB;
+// const db = process.env.MONGO_DB;
+const db = 'mongodb+srv://mern_application:mern_application@cluster0.ibf0x.mongodb.net/standby?retryWrites=true&w=majority';
 
 const connectDB = async () => {
   try {
